@@ -1,0 +1,290 @@
+*{
+    box-sizing: border-box;
+  }
+  
+/* Ajustes generales */
+
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+  
+  h1{ font-size: 3.5em;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif}
+  h2{ font-size: 2.7em;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif}
+  h3{ font-size: 2em;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif}
+  p{ font-size: 1.25em;
+    font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif}
+  ul{ list-style: none;
+    float:right;
+  color:white}
+  li{ font-size: 1.25em;}
+  
+  header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header ul{
+  display: flex;
+  justify-self: flex-end;
+  }
+  
+  header a{
+    padding: 0.31rem 0.75rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+  
+  header a:hover{
+    color: #ffe23b;
+  }
+  
+  .creatividad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  footer{
+    background-color: black;
+  }
+  
+  footer p{
+    margin: 0.62rem;
+    padding: 0.62rem;
+    color: #ffe23b;
+    display: flex;
+  }
+  
+  footer .container{
+    height: 5rem;
+    display: flex;
+    align-items: flex-end;
+    display:inline-block
+  }
+  
+  .logosRS {
+    height: 3.12rem;
+    width: 3.12rem;
+   }
+
+   /* Ajustes index */
+  
+   body {
+    font-size: 1rem;
+     background-image: url("imagenes/fondo.png");
+     background-size:auto;
+     background-repeat:no-repeat;
+     background-position:center;
+    }
+
+    .contexto{
+        text-align: center;
+        margin-left: 2%;
+        margin-right: 2%;
+          }
+        
+    footer ul {
+            display:flex;
+          }
+        
+    footer li{
+            margin: 0.62rem;
+          }
+        
+    main{
+            display:flex;
+            align-items: center;
+          }
+        
+    .autor {
+            height: 21.87rem;
+            width: 31.25rem;
+            margin:1.25rem;
+        }
+  
+/* Aplicando GRID al Index */
+
+.grid_index {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    }
+    
+    .header { grid-area: 1 / 1 / 2 / 6; }
+    .creatividad { grid-area: 2 / 2 / 3 / 5; }
+    .autor { grid-area: 3 / 2 / 5 / 4; }
+    .contexto { grid-area: 3 / 4 / 5 / 5; }
+    .footer { grid-area: 5 / 1 / 6 / 6; }
+
+
+/* Ajustes GRID servicios */
+    
+
+    .grid_servicios {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 0.68rem;
+      grid-row-gap: 0.68rem;
+        }
+        
+        .header__servicios { grid-area: 1 / 1 / 2 / 6; }
+        .caja-servicios-white-1 { grid-area: 2 / 2 / 3 / 5; }
+        .caja-servicios-gray-2 { grid-area: 3 / 2 / 4 / 5; }
+        .caja-servicios-white-3 { grid-area: 4 / 2 / 5 / 5; }
+        .footer__servicios { grid-area: 5 / 1 / 6 / 6; }
+
+
+/* Ajustes del mapa y "donde estamos" */
+
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 40%;
+    position: relative;
+    height: 0;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+  }
+  
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
+  .text-ubicacion{
+    margin-left: 10%; 
+  }
+  
+  /* Ajustes de contacto */
+
+  *{box-sizing:border-box;
+    margin-top: 2%;}
+
+form{
+	width:18.75rem;
+	padding:1rem;
+	border-radius:0.62rem;
+	margin:auto;
+	background-color:black;
+  color: white;
+  font-family: Century  Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+form label{
+	width:4.5rem;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:11,25rem;
+	padding:0.18rem 0.62rem;
+	border:0.06rem solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:0.5rem 1rem;
+	margin-top:2rem;
+	border:0.06rem solid #ffe23b;
+	border-radius:5px;
+	display:block;
+	color: black;
+	background-color:#ffe23b;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:6.25rem;
+	border: 0.06rem solid #f6f6f6;
+	border-radius:0,18rem;
+	background-color:#f6f6f6;			
+	margin:0.5rem 0;
+	resize:none;
+	display:block;
+}
+
+.galeriaimg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2 15rem) ;
+  gap: 0.06rem;
+  align-items: center;
+  width: 100% ;
+  margin: 1.25rem;
+  }
+
+  .foto{
+    width: 35rem;
+    height: 35rem;
+}
+
+  /* Ajustes de medidas FULL RESPONSIVE */
+  
+  @media(max-width: 768px) {
+header{
+  display:grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr;
+align-items: center;
+justify-items: center;
+}
+
+.galeriaimg {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(1 15rem) ;
+  justify-items: center;
+  align-items: center;
+  }
+
+  .foto{
+    width: 35rem;
+    height: 35rem;
+}
+}
+  @media(max-width: 360px) {
+    
+  .header { flex-direction: column;
+    }
+
+  header ul { flex-direction: column;
+  }
+
+  
+  .body_index { flex-direction: column;
+  }
+
+}
