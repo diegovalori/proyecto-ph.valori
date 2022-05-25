@@ -52,10 +52,21 @@ footer .footer_logos{
 
  /* Ajustes en galería */
 
-.carousel-item {
-margin-left: 5rem;
-margin-right: 5rem;
+ .carousel-item {
+  width: 100%;
+ color: black;
+  height: 600px;
 }
+
+
+
+.carousel-item img {
+  object-fit: cover;
+  height: 600px;
+margin-left: 30%;
+margin-bottom: 15%;
+}
+
 
  /* Ajustes index */
 
@@ -157,4 +168,22 @@ align-items: center;
   width: 35rem;
   height: 35rem;
 }
+}
+
+@media(max-width: 150px) {
+  .nav-link{
+    color: #f6f6f6;
+  }
+  .nav-link a{
+    padding: 0.31rem 0.75rem;
+    text-decoration: none;
+    color: white;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #ffe23b;
+    border-bottom: 1.5px solid #ffe23b;
+    transition: border-bottom .15s;
+    padding-bottom: 4px;
+  }
+  
 }
