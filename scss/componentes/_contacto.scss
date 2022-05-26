@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+}
+
+form {
+	width: 18.75rem;
+	padding: 1rem;
+	border-radius: 0.62rem;
+	margin: auto;
+	background-color: black;
+	color: $color;
+	font-family: $font-principal;
+}
+
+form label {
+	width: 4.5rem;
+	font-weight: bold;
+	display: inline-block;
+}
+
+form input[type="text"],
+form input[type="email"] {
+	width: 11, 25rem;
+	padding: 0.18rem 0.62rem;
+	border: 0.06rem solid $color;
+	border-radius: 3px;
+	background-color: $color;
+	margin: 8px 0;
+	display: inline-block;
+}
+
+form input[type="submit"] {
+	width: 100%;
+	padding: 0.5rem 1rem;
+	margin-top: 2rem;
+	border: 0.06rem solid $color-principal;
+	border-radius: 5px;
+	display: block;
+	color: black;
+	background-color: $color-principal;
+}
+
+form input[type="submit"]:hover {
+	cursor: pointer;
+}
+
+textarea {
+	width: 100%;
+	height: 6.25rem;
+	border: 0.06rem solid $color;
+	border-radius: 0, 18rem;
+	background-color: $color;
+	margin: 0.5rem 0;
+	resize: none;
+	display: block;
+}

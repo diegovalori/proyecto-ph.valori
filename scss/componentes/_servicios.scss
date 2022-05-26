@@ -1,0 +1,13 @@
+.accordion-button {
+    color: $color;
+    background-color: black;
+    &:focus {
+        color: $color-principal;
+        background-color: black;
+    }
+}
+
+.accordion-container{
+    justify-content: center;
+    align-content: center;
+}
