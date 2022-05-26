@@ -1,1 +1,253 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+form {
+  width: 18.75rem;
+  padding: 1rem;
+  border-radius: 0.62rem;
+  margin: auto;
+  background-color: black;
+  color: white;
+  font-family: "Raleway", "Poppins", sans-serif;
+}
+
+form label {
+  width: 4.5rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  width: 11, 25rem;
+  padding: 0.18rem 0.62rem;
+  border: 0.06rem solid white;
+  border-radius: 3px;
+  background-color: white;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+  border: 0.06rem solid #ffe23b;
+  border-radius: 5px;
+  display: block;
+  color: black;
+  background-color: #ffe23b;
+}
+
+form input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  height: 6.25rem;
+  border: 0.06rem solid white;
+  border-radius: 0, 18rem;
+  background-color: white;
+  margin: 0.5rem 0;
+  resize: none;
+  display: block;
+}
+
+.ubicacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: auto;
+}
+
+.main_donde-estamos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+body {
+  font-family: "Raleway", "Poppins", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+body .row {
+  margin: 0 !important;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo {
+  width: 8rem;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-family: "Raleway", "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 2.7em;
+  font-family: "Raleway", "Poppins", sans-serif;
+}
+
+h3 {
+  font-size: 2em;
+  font-family: "Raleway", "Poppins", sans-serif;
+}
+
+p {
+  font-size: 1.25em;
+  font-family: "Raleway", "Poppins", sans-serif;
+  margin: 5rem;
+}
+
+ul {
+  list-style: none;
+  float: right;
+  color: white;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+}
+
+.footer_texto, .footer_logos, .nav-link {
+  color: white;
+}
+
+.navbar .navbar-nav .nav-link {
+  padding: 0.31rem 0.75rem;
+  text-decoration: none;
+  color: white;
+  text-align: right;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffe23b;
+  border-bottom: 1.5px solid #ffe23b;
+  -webkit-transition: border-bottom .15s;
+  transition: border-bottom .15s;
+  padding-bottom: 4px;
+}
+
+header {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  margin: 0;
+}
+
+header nav .navbar {
+  width: 100%;
+}
+
+header nav .navbar .navbar-expand-lg.navbar-nav.bg-black {
+  margin: 0;
+}
+
+.navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+@media (max-width: 768px) {
+  .foto {
+    width: 35rem;
+    height: 35rem;
+  }
+}
+
+body {
+  background-image: url("imagenes/fondo.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.accordion-button {
+  color: white;
+  background-color: black;
+}
+
+.accordion-button:focus {
+  color: #ffe23b;
+  background-color: black;
+}
+
+.accordion-container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 30rem;
+  width: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  max-width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
