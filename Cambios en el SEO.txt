@@ -1,0 +1,24 @@
+INDEX
+Título: PH Valori | alquiler de equipos fotográficos
+Descripción: Somos una empresa dedicada a prestar y alquilar servicios de fotografía
+Keywords: servicio de alquiler de cámaras, alquiler de camaras, alquiler de equipos de fotografía, camar, fotografía, equipos de fotografía, fotografo
+SERVICIOS
+Título: PH Valori | servicios de alquiler fotográfico
+Descripción: Ofrecemos los mejores y más completos equipos fotográficos para que realices todos tus trabajos.
+Keywords: servicio de alquiler de cámaras, alquiler de camaras, alquiler de equipos de fotografía, camar, fotografía, equipos de fotografía, fotografo
+GALERIA
+Título: PH Valori | galería de equipos fotográficos
+Descripción: Mira todos los equipos fotográficos que tenemos para ofrecerte.
+Keywords: servicio de alquiler de cámaras, alquiler de camaras, alquiler de equipos de fotografía, camar, fotografía, equipos de fotografía, fotografo
+DONDE ESTAMOS
+Título: PH Valori | donde estamos
+Descripción: Nuestro local se ubica en Capital Federal y trabajamos para toda la Argentina.
+Keywords: equipos de fotografía en CABA, Villa Luro fotografía, servicio de alquiler de cámaras, alquiler de camaras, alquiler de equipos de fotografía, camar, fotografía, equipos de fotografía, fotografo
+CONTACTO
+Título: PH Valori | contactate con nosotros
+Descripción: Contactate con nosotros y pedí asesoramiento sobre nuestros equipos.
+Keywords: contacto de alquiler de fotografía, servicio de alquiler de cámaras, alquiler de camaras, alquiler de equipos de fotografía, camar, fotografía, equipos de fotografía, fotografo
+
+Realicé ajustes en los títulos para ser más descriptiva.
+Sumé keywords a cada HTML.
+Desarrollé una descripción de cada HTML.

@@ -7,7 +7,7 @@ form {
 	padding: 1rem;
 	border-radius: 0.62rem;
 	margin: auto;
-	background-color: black;
+	background-color: map-get($estilos, color);
 	color: $color;
 	font-family: $font-principal;
 }

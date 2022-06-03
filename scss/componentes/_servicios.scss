@@ -1,9 +1,9 @@
 .accordion-button {
     color: $color;
-    background-color: black;
+    background-color: map-get($estilos, color);
     &:focus {
         color: $color-principal;
-        background-color: black;
+        background-color: map-get($estilos, color);
     }
 }
 

@@ -4,7 +4,11 @@ $font-principal:'Raleway',
 sans-serif;
 $color:white;
 
-@mixin center-items {
-    justify-items: center;
-    align-items: center;
+@mixin flex {
+    display: flex;
+    flex-direction: column;
 }
+
+$estilos: (
+    color: black,
+)
