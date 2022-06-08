@@ -30,7 +30,10 @@
   
   h1 {
     font-size: 3.5em;
-    font-family: $font-principal
+    font-family: $font-principal;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
   }
   
   h2 {
