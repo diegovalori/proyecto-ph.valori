@@ -23,6 +23,14 @@
     .pickup{
       margin-top: 2.8rem;
     }
+
 .mapa-ubicacion { 
   margin-left: 15%;
 margin-bottom: 4rem;}
+
+@media (max-width: 450px){
+  .pickup{
+    flex-direction: column;
+  }
+
+ }
