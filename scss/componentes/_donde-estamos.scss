@@ -1,36 +1,11 @@
 .ubicacion{
-    @include flex;
-    align-content: center;
-    margin: auto;
-  }
-  
-  .main_donde-estamos{
-    display: flex;
-    padding: 2rem;
-  }
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+}
 
-  .text-ubicacion {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 45px;
-    grid-row-gap: 0px;
-    }
-    
-    .mapa-ubicacion { grid-area: 1 / 1 / 6 / 2; }
-    .pickup { grid-area: 1 / 2 / 6 / 3; }
-
-    .pickup{
-      margin-top: 2.8rem;
-    }
-
-.mapa-ubicacion { 
-  margin-left: 15%;
-margin-bottom: 4rem;}
-
-@media (max-width: 450px){
-  .pickup{
-    flex-direction: column;
-  }
-
- }
+.main_donde-estamos{
+  display: flex;
+  padding: 2rem;
+}
